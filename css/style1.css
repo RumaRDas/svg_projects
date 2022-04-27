@@ -7,16 +7,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20%;
-    ;
+    margin-top: 20px;
 }
 
-#text {
+#text1 {
     font-size: 40px;
     font-weight: bold;
 }
 
-#rect {
+#rect1 {
     stroke-dasharray: 50;
     animation: move 1s ease alternate infinite;
 }
@@ -28,4 +27,46 @@
 
     }
 
+}
+#rect {
+    stroke-dasharray: 780;
+    stroke-dashoffset: 0;
+    animation: moveRect 3s ease alternate infinite;
+}
+
+@keyframes moveRect {
+    to {
+        stroke-dashoffset: 780;
+    }
+}
+
+#circle {
+    stroke-dasharray: 540;
+    stroke-dashoffset: 0;
+    fill: white;
+    animation: moveCircle 3s ease alternate infinite;
+}
+
+@keyframes moveCircle {
+    to {
+        stroke-dashoffset: 540;
+        fill: #247A2D;
+    }
+}
+
+#text {
+    opacity: 0;
+    animation: moveText 3s ease alternate infinite;
+}
+
+@keyframes moveText {
+    60% {
+
+        opacity: 0;
+    }
+
+    100% {
+
+        opacity: 1;
+    }
 }
