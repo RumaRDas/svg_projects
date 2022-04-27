@@ -1,0 +1,111 @@
+#Vector {
+    fill: yellowgreen;
+    opacity: 0.5;
+    transform: translatey(-5px);
+}
+
+#papperonies {
+    /* display: none; */
+}
+
+#mushrooms {
+    display: none;
+    opacity: 0.5;
+}
+
+#pappers {
+    /* display: none; */
+}
+
+#p-circle {
+    fill: rgb(252, 46, 19);
+}
+
+#pepper {
+    fill: black;
+}
+
+body {
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+    perspective: 500px;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(200, 159, 238);
+    /* transition-property: all/transform, opacity; */
+    transition-property: transform, opacity;
+    /* transition-duration: 2s;
+    transition-delay: 0;
+    transition-timing-function: linear; or 
+     transition: all 2s linear;
+    */
+    transition: all 2s linear;
+}
+
+.item:hover {
+    opacity: 0;
+    transform: rotate(45deg);
+}
+
+.item1 {
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    background-color: rgb(173, 91, 24);
+    transition: all 2s ease;
+    transform-origin: bottom right;
+}
+
+.item1:hover {
+
+    transform: rotate(45deg);
+}
+
+.item2 {
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    background-color: rgb(15, 173, 49);
+    /* animation-name: example;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: none; */
+    animation: example 3s infinite 0s alternate;
+}
+
+@keyframes example {
+
+    /* from {
+        transform: translateY(-100px);
+    }
+
+    to {
+        transform: translateY(100px);
+    } */
+    0% {
+        transform: translateY(-150px) rotate(10deg);
+        opacity: 0;
+    }
+
+    50% {
+        transform: rotate(40deg);
+        background-color: tomato;
+        opacity: 1;
+        border-radius: 50%;
+        border: solid green;
+    }
+
+    100% {
+        transform: translateY(150px) rotate(90deg);
+        opacity: 0;
+    }
+}

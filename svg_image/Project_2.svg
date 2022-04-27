@@ -1,0 +1,144 @@
+<svg width="500" height="500" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="500" height="500" fill="#E5E5E5"/>
+<g id="Frame 1">
+<rect width="500" height="500" fill="white"/>
+<g id="mainbase">
+<ellipse id="base_shade" cx="254" cy="269" rx="183" ry="184" fill="#807871"/>
+<circle id="base" cx="252.5" cy="265.5" r="180.5" fill="#EA9A50"/>
+</g>
+<g id="inner-main">
+<path id="inner-shade" d="M373.124 183.167C386.11 169.294 281.729 82.5854 237.779 124.205C193.828 165.825 107.01 149.97 117.915 202.986C128.82 256.002 80.622 253.525 107.01 273.839C133.397 294.154 100.044 349.087 117.915 355.097C147.381 365.007 180.843 425.455 247.268 427.932C313.692 430.409 321.183 364.511 379.118 346.178C437.052 327.846 360.139 197.04 373.124 183.167Z" fill="#868177"/>
+<path id="inner" d="M373.436 177.808C386.436 163.808 281.936 76.3076 237.936 118.308C193.936 160.308 107.019 144.308 117.936 197.808C128.854 251.308 80.6011 248.808 107.019 269.308C133.436 289.808 100.045 345.243 117.936 351.308C147.436 361.308 180.936 422.308 247.436 424.808C313.936 427.308 321.436 360.808 379.436 342.308C437.436 323.808 360.436 191.808 373.436 177.808Z" fill="#F1CA7F"/>
+</g>
+<g id="papperonies">
+<g id="papperoni">
+<circle id="p-circle" cx="186.5" cy="208.5" r="31.5" fill="#EE0F0F"/>
+<g id="p-dots">
+<path id="Ellipse 2" d="M175 204.5C175 208.09 172.314 211 169 211C165.686 211 163 208.09 163 204.5C163 200.91 165.686 198 169 198C172.314 198 175 200.91 175 204.5Z" fill="white"/>
+<circle id="Ellipse 4" cx="195" cy="214" r="5" fill="white"/>
+<ellipse id="Ellipse 5" cx="172.5" cy="219" rx="3.5" ry="3" fill="white"/>
+<ellipse id="Ellipse 6" cx="186.5" cy="229" rx="8.5" ry="7" fill="white"/>
+<ellipse id="Ellipse 7" cx="177.5" cy="191" rx="4.5" ry="6" fill="white"/>
+<ellipse id="Ellipse 3" cx="196" cy="196.5" rx="9" ry="9.5" fill="white"/>
+</g>
+</g>
+<g id="papperoni_2">
+<circle id="p-circl" cx="295.5" cy="176.5" r="31.5" fill="#EE0F0F"/>
+<g id="p-dots_2">
+<path id="Ellipse 2_2" d="M284 172.5C284 176.09 281.314 179 278 179C274.686 179 272 176.09 272 172.5C272 168.91 274.686 166 278 166C281.314 166 284 168.91 284 172.5Z" fill="white"/>
+<circle id="Ellipse 4_2" cx="304" cy="182" r="5" fill="white"/>
+<ellipse id="Ellipse 5_2" cx="281.5" cy="187" rx="3.5" ry="3" fill="white"/>
+<ellipse id="Ellipse 6_2" cx="295.5" cy="197" rx="8.5" ry="7" fill="white"/>
+<ellipse id="Ellipse 7_2" cx="286.5" cy="159" rx="4.5" ry="6" fill="white"/>
+<ellipse id="Ellipse 3_2" cx="305" cy="164.5" rx="9" ry="9.5" fill="white"/>
+</g>
+</g>
+<g id="papperoni_3">
+<circle id="p-circl" cx="345.5" cy="260.5" r="31.5" fill="#EE0F0F"/>
+<g id="p-dots_3">
+<path id="Ellipse 2_3" d="M334 256.5C334 260.09 331.314 263 328 263C324.686 263 322 260.09 322 256.5C322 252.91 324.686 250 328 250C331.314 250 334 252.91 334 256.5Z" fill="white"/>
+<circle id="Ellipse 4_3" cx="354" cy="266" r="5" fill="white"/>
+<ellipse id="Ellipse 5_3" cx="331.5" cy="271" rx="3.5" ry="3" fill="white"/>
+<ellipse id="Ellipse 6_3" cx="345.5" cy="281" rx="8.5" ry="7" fill="white"/>
+<ellipse id="Ellipse 7_3" cx="336.5" cy="243" rx="4.5" ry="6" fill="white"/>
+<ellipse id="Ellipse 3_3" cx="355" cy="248.5" rx="9" ry="9.5" fill="white"/>
+</g>
+</g>
+<g id="papperoni_4">
+<circle id="p-circle" cx="255.5" cy="274.5" r="31.5" fill="#EE0F0F"/>
+<g id="p-dots_4">
+<path id="Ellipse " d="M244 270.5C244 274.09 241.314 277 238 277C234.686 277 232 274.09 232 270.5C232 266.91 234.686 264 238 264C241.314 264 244 266.91 244 270.5Z" fill="white"/>
+<circle id="Ellipse 4_4" cx="264" cy="280" r="5" fill="white"/>
+<ellipse id="Ellipse 5_4" cx="241.5" cy="285" rx="3.5" ry="3" fill="white"/>
+<ellipse id="Ellipse 6_4" cx="255.5" cy="295" rx="8.5" ry="7" fill="white"/>
+<ellipse id="Ellipse 7_4" cx="246.5" cy="257" rx="4.5" ry="6" fill="white"/>
+<ellipse id="Ellipse 3_4" cx="265" cy="262.5" rx="9" ry="9.5" fill="white"/>
+</g>
+</g>
+<g id="papperoni_5">
+<circle id="p-circl" cx="164.5" cy="292.5" r="31.5" fill="#EE0F0F"/>
+<g id="p-dots_5">
+<path id="Ellipse" d="M153 288.5C153 292.09 150.314 295 147 295C143.686 295 141 292.09 141 288.5C141 284.91 143.686 282 147 282C150.314 282 153 284.91 153 288.5Z" fill="white"/>
+<circle id="Ellipse" cx="173" cy="298" r="5" fill="white"/>
+<ellipse id="Ellipse" cx="150.5" cy="303" rx="3.5" ry="3" fill="white"/>
+<ellipse id="Ellipse" cx="164.5" cy="313" rx="8.5" ry="7" fill="white"/>
+<ellipse id="Ellipse" cx="155.5" cy="275" rx="4.5" ry="6" fill="white"/>
+<ellipse id="Ellipse" cx="174" cy="280.5" rx="9" ry="9.5" fill="white"/>
+</g>
+</g>
+<g id="papperoni_6">
+<circle id="p-circl" cx="271.5" cy="363.5" r="31.5" fill="#EE0F0F"/>
+<g id="p-dots_6">
+<path id="Ellipse " d="M260 359.5C260 363.09 257.314 366 254 366C250.686 366 248 363.09 248 359.5C248 355.91 250.686 353 254 353C257.314 353 260 355.91 260 359.5Z" fill="white"/>
+<circle id="Ellipse " cx="280" cy="369" r="5" fill="white"/>
+<ellipse id="Ellipse " cx="257.5" cy="374" rx="3.5" ry="3" fill="white"/>
+<ellipse id="Ellipse " cx="271.5" cy="384" rx="8.5" ry="7" fill="white"/>
+<ellipse id="Ellipse " cx="262.5" cy="346" rx="4.5" ry="6" fill="white"/>
+<ellipse id="Ellipse " cx="281" cy="351.5" rx="9" ry="9.5" fill="white"/>
+</g>
+</g>
+</g>
+<g id="mushrooms">
+<g id="MUSHROOM">
+<g id="Component 1">
+<rect id="Rectangle 1" x="228.683" y="157" width="13.6829" height="33" rx="6.84146" fill="#C4C4C4"/>
+<ellipse id="Ellipse 8" cx="235.524" cy="167.866" rx="20.5244" ry="10.8659" fill="#C4C4C4"/>
+</g>
+<g id="Component 2">
+<rect id="Rectangle 1_2" x="230.829" y="161.024" width="9.39024" height="24.9512" rx="4.69512" fill="#787171"/>
+<ellipse id="Ellipse 8_2" cx="235.524" cy="169.24" rx="14.0854" ry="8.21564" fill="#787171"/>
+</g>
+</g>
+<g id="MUSHROOM_2">
+<g id="Component 1_2">
+<rect id="Rectangle 1_3" x="136.268" y="229" width="13.2683" height="32" rx="6.63415" fill="#C4C4C4"/>
+<ellipse id="Ellipse 8_3" cx="142.902" cy="239.537" rx="19.9024" ry="10.5366" fill="#C4C4C4"/>
+</g>
+<g id="Component 2_2">
+<rect id="Rectangle 1_4" x="138.35" y="232.902" width="9.10569" height="24.1951" rx="4.55285" fill="#787171"/>
+<ellipse id="Ellipse 8_4" cx="142.902" cy="240.869" rx="13.6585" ry="7.96669" fill="#787171"/>
+</g>
+</g>
+<g id="MUSHROOM_3">
+<g id="Component 1_3">
+<rect id="Rectangle 1_5" x="203.268" y="332" width="13.2683" height="32" rx="6.63415" fill="#C4C4C4"/>
+<ellipse id="Ellipse 8_5" cx="209.902" cy="342.537" rx="19.9024" ry="10.5366" fill="#C4C4C4"/>
+</g>
+<g id="Component 2_3">
+<rect id="Rectangle 1_6" x="205.35" y="335.902" width="9.10569" height="24.1951" rx="4.55285" fill="#787171"/>
+<ellipse id="Ellipse 8_6" cx="209.902" cy="343.869" rx="13.6585" ry="7.96669" fill="#787171"/>
+</g>
+</g>
+<g id="MUSHROOM_4">
+<g id="Component 1_4">
+<rect id="Rectangle 1_7" x="321.268" y="304" width="13.2683" height="32" rx="6.63415" fill="#C4C4C4"/>
+<ellipse id="Ellipse 8_7" cx="327.902" cy="314.537" rx="19.9024" ry="10.5366" fill="#C4C4C4"/>
+</g>
+<g id="Component 2_4">
+<rect id="Rectangle 1_8" x="323.35" y="307.902" width="9.10569" height="24.1951" rx="4.55285" fill="#787171"/>
+<ellipse id="Ellipse 8_8" cx="327.902" cy="315.869" rx="13.6585" ry="7.96669" fill="#787171"/>
+</g>
+</g>
+<g id="MUSHROOM_5">
+<g id="Component 1_5">
+<rect id="Rectangle 1_9" x="291.268" y="217" width="13.2683" height="32" rx="6.63415" fill="#C4C4C4"/>
+<ellipse id="Ellipse 8_9" cx="297.902" cy="227.537" rx="19.9024" ry="10.5366" fill="#C4C4C4"/>
+</g>
+<g id="Component 2_5">
+<rect id="Rectangle 1_10" x="293.35" y="220.902" width="9.10569" height="24.1951" rx="4.55285" fill="#787171"/>
+<ellipse id="Ellipse 8_10" cx="297.902" cy="228.869" rx="13.6585" ry="7.96669" fill="#787171"/>
+</g>
+</g>
+</g>
+<g id="pappers">
+<rect id="pepper" x="144.367" y="182.559" width="6" height="36" rx="3" transform="rotate(26.5664 144.367 182.559)" fill="#0B8417"/>
+<path id="pepper" d="M349.289 169.98C350.009 168.488 351.802 167.862 353.294 168.581V168.581C354.787 169.301 355.413 171.094 354.693 172.587L344.702 193.303L334.711 214.02C333.991 215.512 332.198 216.138 330.706 215.419V215.419C329.213 214.699 328.587 212.906 329.307 211.413L349.289 169.98Z" fill="#0B8417"/>
+<rect id="pepper" x="232.19" y="207.805" width="4" height="33" rx="2" transform="rotate(-38.3705 232.19 207.805)" fill="#0B8417"/>
+<rect id="pepper" x="217.234" y="271.55" width="5" height="49" rx="2.5" transform="rotate(19.29 217.234 271.55)" fill="#0B8417"/>
+<rect id="pepper" x="234.539" y="385.792" width="3" height="30" rx="1.5" transform="rotate(25.2392 234.539 385.792)" fill="#0B8417"/>
+<rect id="pepper" x="160.96" y="338.947" width="3" height="30" rx="1.5" transform="rotate(-24.3022 160.96 338.947)" fill="#0B8417"/>
+<rect id="pepper" x="366" y="306.924" width="3" height="30" rx="1.5" transform="rotate(35.5482 366 306.924)" fill="#0B8417"/>
+<rect id="pepper" x="276.998" y="303.256" width="3" height="30" rx="1.5" transform="rotate(-44.0184 276.998 303.256)" fill="#0B8417"/>
+</g>
+</g>
+</svg>
