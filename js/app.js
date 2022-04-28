@@ -1,3 +1,3 @@
-const item = document.querySelector('#circle')
+const item = document.querySelector('#rect')
 
 console.log(item.getTotalLength())
