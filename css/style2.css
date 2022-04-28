@@ -88,3 +88,65 @@
     }
 
 }
+#sign {
+    stroke-dasharray: 2157;
+    animation: moveSign 5s ease infinite;
+}
+
+@keyframes moveSign {
+    from {
+        stroke-dashoffset: 2157;
+    }
+}
+
+#heyText {
+    font-size: 100px;
+    font-weight: 100;
+    opacity: 0;
+    animation: moveText1 5s ease forwards;
+}
+
+#followText {
+    font-size: 100px;
+    font-weight: 100;
+    opacity: 0;
+    animation: moveText2 5s ease forwards;
+}
+
+@keyframes moveText1 {
+
+    0%,
+    70% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes moveText2 {
+
+    0%,
+    70% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+#shape {
+    stroke-dasharray: 5490;
+    stroke-dashoffset: 5490;
+    animation: moveShape 5s ease forwards;
+}
+
+@keyframes moveShape {
+    to {
+        stroke-dashoffset: 0;
+    }
+
+}
