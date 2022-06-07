@@ -1,0 +1,20 @@
+<svg width="500" height="500" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="envelop">
+<rect width="500" height="500" fill="white"/>
+<path id="tri2" d="M470.328 238.02L80.4059 238.563C75.5778 238.569 73.5452 232.407 77.4298 229.54L250.34 101.923C253.593 99.5223 257.973 99.3167 261.437 101.403L472.9 228.737C477.238 231.348 475.391 238.013 470.328 238.02Z" fill="#048CD8" stroke="black"/>
+<g id="letter">
+<rect id="Rectangle 1" x="165.5" y="146.5" width="219" height="229" fill="white" stroke="black"/>
+<rect id="Rectangle 2" x="179" y="170.113" width="76" height="9.27419" rx="4.6371" fill="#5E0F0F"/>
+<rect id="Rectangle 3" x="179" y="188.661" width="95" height="9.27419" rx="4.6371" fill="#F88282"/>
+<rect id="Rectangle 4" x="179" y="225.758" width="192" height="9.27419" rx="4.6371" fill="#BFB8B8"/>
+<rect id="Rectangle 5" x="178" y="244.306" width="192" height="9.27419" rx="4.6371" fill="#BFB8B8"/>
+<rect id="Rectangle 6" x="178" y="261" width="192" height="9.27419" rx="4.6371" fill="#BFB8B8"/>
+<rect id="Rectangle 7" x="178" y="277.694" width="192" height="9.27419" rx="4.6371" fill="#BFB8B8"/>
+<rect id="Rectangle 8" x="178" y="294.387" width="192" height="9.27419" rx="4.6371" fill="#BFB8B8"/>
+<rect id="Rectangle 10" x="178" y="327.774" width="192" height="9.27419" rx="4.6371" fill="#BFB8B8"/>
+<rect id="Rectangle 9" x="178" y="311.081" width="192" height="9.27419" rx="4.6371" fill="#BFB8B8"/>
+<rect id="Rectangle 11" x="178" y="344.468" width="192" height="9.27419" rx="4.6371" fill="#BFB8B8"/>
+</g>
+<path id="envelop_2" d="M75 471.5V244.367C75 240.272 79.6542 237.913 82.9568 240.335L267.116 375.385C268.841 376.65 271.179 376.678 272.933 375.454L467.139 239.983C470.454 237.671 475 240.043 475 244.084V471.5C475 474.261 472.761 476.5 470 476.5H80C77.2386 476.5 75 474.261 75 471.5Z" fill="#048CD8" stroke="black"/>
+</g>
+</svg>

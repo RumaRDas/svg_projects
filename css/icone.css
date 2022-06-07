@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    margin-left: 30px;
+    margin-top: 300px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#facebook,
+#insta,
+#twitter {
+    cursor: pointer;
+}
+
+#facebook-c,
+#twitter-c,
+#insta-c {
+    transition: all ease 1s;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#facebook:hover #facebook-c {
+    fill: transparent;
+    stroke-width: 2;
+    stroke-dasharray: 10;
+    transform: rotate(360deg);
+}
+
+#facebook:hover #facebook-icon {
+    fill: #4567DE
+}
+
+#insta:hover #insta-c {
+    transform: scale(1.2);
+    fill: rgb(252, 150, 132)
+}
+
+#insta:hover #insta-circle {
+    animation: insta .3s ease alternate;
+}
+
+@keyframes insta {
+    to {
+        d: path("M231 50C226.583 50 223 50.2239 223 50.5C223 50.7761 226.583 51 231 51C235.417 51 239 50.7761 239 50.5C239 50.2239 235.417 50 231 50ZM231 50.8243C228.135 50.8243 225.811 50.6791 225.811 50.5C225.811 50.3209 228.135 50.1757 231 50.1757C233.865 50.1757 236.189 50.3209 236.189 50.5C236.189 50.6791 233.865 50.8243 231 50.8243V50.8243Z")
+    }
+
+}
+
+#twitter:hover #twitter-circle {
+    fill: transparent;
+    stroke: none;
+}
+
+#twitter-icon {
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#twitter:hover #twitter-icon {
+    animation: twitter 1s linear forwards;
+    fill: #52E0FF
+}
+
+@keyframes twitter {
+    50% {
+        transform: rotateY(180deg);
+
+    }
+
+    75%,
+    100% {
+        d: path("M313.536 61.6843C316.955 63.8538 320.934 65 325.042 65C331.058 65 336.571 62.689 340.566 58.4933C344.39 54.4776 346.493 49.0818 346.388 43.606C347.838 42.3659 349.542 39.998 349.542 37.6901C349.542 36.8054 348.582 36.2438 347.804 36.6946C346.442 37.4947 345.2 37.704 343.923 37.3455C341.316 34.8037 337.434 34.2683 334.163 36.0315C331.304 37.5701 329.715 40.3857 329.858 43.4629C325.028 42.8736 320.566 40.4519 317.455 36.6885C316.944 36.0746 315.975 36.1469 315.569 36.8423C314.07 39.4087 314.086 42.3828 315.389 44.7845C314.769 44.8938 314.386 45.4153 314.386 45.98C314.386 48.394 315.472 50.6127 317.221 52.1267C316.895 52.4405 316.787 52.9067 316.926 53.3221C317.695 55.6331 319.437 57.4394 321.614 58.3441C319.246 59.4749 316.627 59.8519 314.296 59.5657C313.09 59.4026 312.495 61.0243 313.536 61.6843Z");
+        fill: #52E0FF;
+    }
+}

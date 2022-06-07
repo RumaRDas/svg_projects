@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+svg {
+    height: 100%;
+    width: 100%;
+}
+
+.lines {
+    cursor: pointer;
+}
+
+.list {
+    position: absolute;
+    list-style: none;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+.list.active {
+    display: block;
+}
+
+.list-item {
+    margin: 10px;
+}
+
+.circle.active {
+    animation: cir 2s ease forwards;
+}
+
+@keyframes cir {
+    to {
+        r: 4000
+    }
+}
+
+.line {
+    transition: all 2s ease;
+    transform-origin: left;
+    transform-box: fill-box;
+}
+
+.line-1.active {
+    transform: rotate(45deg);
+}
+
+.line-2.active {
+    opacity: 0;
+}
+
+.line-3.active {
+    transform: rotate(-45deg);
+}

@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+
+svg {
+    height: 100%;
+    width: 100%;
+}
+
+
+#letter {
+    animation: moveLetter 2s ease-in-out forwards;
+}
+
+@keyframes moveLetter {
+    to {
+        transform: translateY(95px);
+    }
+
+}
+
+#tri {
+
+    animation: tri 2s 2s linear forwards;
+}
+
+@keyframes tri {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 0;
+    }
+
+
+
+}
+
+#tri2 {
+    opacity: 0;
+    animation: tri2 1s 2s linear forwards;
+}
+
+@keyframes tri2 {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+        d: path("M469.553 237.947L84.7924 234.156C79.9105 234.108 77.8607 240.367 81.8255 243.216L263.497 373.757C266.83 376.152 271.287 376.267 274.739 374.049L472.207 247.153C476.384 244.469 474.518 237.996 469.553 237.947Z")
+    }
+}
+
+#envelop {
+
+    animation: envelop .5s 3s ease-in forwards;
+}
+
+@keyframes envelop {
+    to {
+        transform: translate(1000px);
+    }
+}

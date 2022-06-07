@@ -1,0 +1,230 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin-top: 50px;
+}
+
+svg {
+    width: 60%;
+    height: 60%;
+}
+
+#spaceship {
+    animation: spaceShip 10s ease-in-out;
+}
+
+@keyframes spaceShip {
+    0% {
+        transform: translateY(-300px);
+    }
+
+    30% {
+        transform: translateY(50px);
+    }
+
+    70% {
+        transform: translateY(50px);
+    }
+
+    100% {
+        transform: translateY(-300px);
+    }
+
+}
+
+#rays {
+    animation: rays 10s linear;
+    transform: translate(50px);
+}
+
+@keyframes rays {
+
+    0%,
+    30% {
+        opacity: 0;
+    }
+
+    35%,
+    45%,
+    55%,
+    65% {
+        opacity: 1;
+        fill: rgb(138, 11, 11)
+    }
+
+    40%,
+    50%,
+    60% {
+
+        fill: #6C63FF
+    }
+
+    70%,
+    100% {
+        opacity: 0;
+    }
+}
+
+#C1 {
+    animation: c1 10s linear;
+}
+
+@keyframes c1 {
+    35% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-800px);
+    }
+
+}
+
+#C1-l-arm {
+    animation: c1Larm 10s linear;
+    transform-origin: right top;
+    transform-box: fill-box;
+}
+
+@keyframes c1Larm {
+    35% {
+        transform: rotate(0);
+    }
+
+    40%,
+    100% {
+        transform: rotate(70deg);
+    }
+}
+
+#C1-r-arm {
+    animation: c1Rarm 10s linear;
+    transform-origin: left top;
+    transform-box: fill-box;
+}
+
+@keyframes c1Rarm {
+    35% {
+        transform: rotate(0);
+    }
+
+    40%,
+    100% {
+        transform: rotate(-70deg);
+    }
+}
+
+#C1-l-leg,
+#C1-r-leg {
+    animation: c1Legs 10s linear;
+    transform-origin: left top;
+    transform-box: fill-box;
+}
+
+@keyframes c1Legs {
+    35% {
+        transform: rotate(0);
+    }
+
+    40%,
+    44%,
+    48%,
+    52%,
+    56%,
+    60% {
+        transform: rotate(20deg);
+    }
+
+    42%,
+    46%,
+    50%,
+    54%,
+    58% {
+        transform: rotate(-20deg);
+    }
+}
+
+#C1-mouth {
+    animation: c1Mouth 10s linear;
+}
+
+@keyframes c1Mouth {
+
+    25%,
+    100% {
+        d: path("M339.5 698C340.442 703.202 338.445 701.912 337 704C335.555 706.088 332.578 707.246 330.08 707.701C327.583 708.156 325.007 707.6 322.919 706.155C320.831 704.71 319.403 702.495 318.948 699.998L318.948 698C318.948 696 319.298 693.442 324.5 692.5C329.702 691.558 338.558 692.798 339.5 698Z")
+    }
+}
+
+#C1-eye-ball {
+    animation: c1eye 10s linear;
+}
+
+@keyframes c1eye {
+
+    25%,
+    100% {
+        transform: translate(-5px, -5px);
+    }
+}
+
+
+#C2-eye-ball {
+    animation: c2eye 10s linear;
+}
+
+@keyframes c2eye {
+
+    25%,
+    100% {
+        transform: translate(-1px, -6px);
+    }
+}
+
+#C2-mouth {
+    animation: c2Mouth 10s linear;
+}
+
+@keyframes c2Mouth {
+
+    25%,
+    100% {
+        d: path("M537.794 702C539.838 702 540.99 699.456 542 694.731C542 690.006 540.149 690.006 538.635 690.006C536.591 690.006 533.419 689.642 534.092 694.731C534.092 697.742 535.749 702 537.794 702Z")
+    }
+}
+
+#C2-r-arm {
+    animation: c2Rarm 10s linear;
+    transform-origin: right;
+    transform-box: fill-box;
+}
+
+@keyframes c2Rarm {
+    40% {
+        transform: rotate(0);
+    }
+
+    45%,
+    100% {
+        transform: rotate(70deg);
+    }
+}
+
+#C2-l-arm {
+    animation: c2Larm 10s linear;
+    transform-origin: left;
+    transform-box: fill-box;
+}
+
+@keyframes c2Larm {
+    40% {
+        transform: rotate(0);
+    }
+
+    45%,
+    100% {
+        transform: rotate(-70deg);
+    }
+}
